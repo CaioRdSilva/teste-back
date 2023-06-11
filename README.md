@@ -40,6 +40,9 @@ $ npm run start:dev
 
 ## Lista de Rotas da aplicação
 
+Informações via Post devem ser passadas pelo Body;
+A senha do usuario é case sensitive e necessita numeros e caracteres especiais Exemplo: Animal@123
+
 ### Rotas de Autenticação e usuario
 
 (Registro do usuario) (Post request) http://localhost:3000/auth/register

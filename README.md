@@ -13,7 +13,7 @@ Finalidade - Criar uma API-(CRUD) que possuisse um usuario onde o mesmo possuiss
 
 3. Aplicação Utilizada para fazer requisições (Postman).
 
-- Na area de Tests executar o seguinte comando para guardar o token em uma variavel 'token' 
+- Na area de Tests executar o seguinte comando para guardar o token em uma variável 'token' (Necessário estar logado no postman para poder utilizar variáveis)
  ```js
   var res = pm.response.json();
   pm.globals.set('token', res.token);

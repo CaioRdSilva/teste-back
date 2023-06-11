@@ -41,12 +41,14 @@ $ npm run start:dev
 
 ## Lista de Rotas da aplicação
 
-Informações via Post devem ser passadas pelo Body;
+Informações via Post devem ser passadas pelo Body.
+
 A senha do usuario é case sensitive e necessita numeros e caracteres especiais Exemplo: Animal@123
 
 ### Rotas de Autenticação e usuario
 
 (Registro do usuario) (Post request) `http://localhost:3000/auth/register`
+
 (Login do usuario) (Post request) `http://localhost:3000/auth/login`
 
 ### Rotas de Notas
@@ -63,12 +65,12 @@ A senha do usuario é case sensitive e necessita numeros e caracteres especiais 
 
 ### Rotas de Categorias
 
-//(Busca todas as categorias) (Get request) `localhost:3000/categoria/`
+(Busca todas as categorias) (Get request) `localhost:3000/categoria/`
 
-//(Busca categoria especificada) (Get request) `localhost:3000/categoria/:id`
+(Busca categoria especificada) (Get request) `localhost:3000/categoria/:id`
 
-//(Cria categoria da nota especificada) (Post request) `localhost:3000/categoria/:id`
+(Cria categoria da nota especificada) (Post request) `localhost:3000/categoria/:id`
 
 (Atualiza categoria especificada especificada) (Patch request) `http:/localhost:3000/categoria/:id`
 
-//(Deleta categoria especificada) (Delete request) `localhost:3000/categoria/:id`
+(Deleta categoria especificada) (Delete request) `localhost:3000/categoria/:id`
